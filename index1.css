@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 200px;
+    height: 80px;
+    background: #ccc;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.menu:hover {
+    background: red;
+    color: white;
+}
+
+.menu:active {
+    background: #170202;
+    color: #e2ff01;
+}
+
+a {
+    font-size: 48PX;
+    color: red
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+.menuText {
+    position: relative;
+    top: -100px;
+    height: 200px;
+    display: inline-block;
+    color: inherit;
+}
+
+.menuText:hover {
+    animation: moveUp100 1s 1 normal;
+}
+
+@keyframes moveUp100 {
+    from {
+        top: 0;
+    }
+    to {
+        top: -100px;
+    }
+
+
+}
+
+.menuTextUp {
+    height: 100px;
+    position: relative;
+    top: 16px;
+    color: green;
+}
+
+.menuTextDown {
+    height: 100px;
+    position: relative;
+    top: 16px;
+    color: red;
+}
+
+.caidan {
+
+}

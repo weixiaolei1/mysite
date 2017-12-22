@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#daoHang {
+    height: 80px;
+    background: #9f9f9f;
+}
+
+#zhuTiTu {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    margin-top: 250px;
+    display: inline-block;
+}
+
+#zhanShi {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 61.5%;
+    height: 545px;
+    background: #ffffff;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+#dangJiReMai {
+
+    height: 200px;
+    background: #cecece;
+    margin-top: -380px;
+
+}
+
+#reMaiZhanShiTu {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    height: 600px;
+    background: #fab6b6;
+    margin-top: 330px;
+    display: inline-block;
+}
+
+#diBuDaoHang {
+    height: 240px;
+    background: yellow;
+    margin-top: -12%;
+
+}
+
+#bianKuang {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-576px, -114px);
+    margin-top: -89px;
+    display: inline-block;
+}
+
+#biankuang1 {
+  position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-62px, -300px);
+    margin-top: -10px;
+    display: inline-block;
+}
+
+#biankuang2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-62px, -300px);
+    margin-top: -10px;
+    display: inline-block;
+}
